@@ -1,0 +1,413 @@
+﻿[2015.12.07-11.45.07:260][  0]Log file open, 12/07/15 05:45:07
+[2015.12.07-11.45.07:260][  0]LogInit:Display: Running engine for game: TheTake
+[2015.12.07-11.45.07:260][  0]LogPlatformFile: Not using cached read wrapper
+[2015.12.07-11.45.07:260][  0]LogInit:Display: RandInit(348690182) SRandInit(348690185).
+[2015.12.07-11.45.07:260][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.12.07-11.45.07:260][  0]LogStats: Stats thread started at 0.144149
+[2015.12.07-11.45.07:260][  0]LogInit: Version: 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.07-11.45.07:260][  0]LogInit: API Version: 2758231
+[2015.12.07-11.45.07:260][  0]LogInit: Compiled (64-bit): Nov  7 2015 05:13:45
+[2015.12.07-11.45.07:260][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2015.12.07-11.45.07:260][  0]LogInit: Build Configuration: Development
+[2015.12.07-11.45.07:260][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2015.12.07-11.45.07:260][  0]LogInit: Command line:  
+[2015.12.07-11.45.07:260][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2015.12.07-11.45.07:260][  0]LogInit: Rocket: 1
+[2015.12.07-11.45.07:271][  0]LogInit: Using libcurl 7.41.0
+[2015.12.07-11.45.07:271][  0]LogInit:  - built for x86_64-pc-win32
+[2015.12.07-11.45.07:271][  0]LogInit:  - supports SSL with WinSSL
+[2015.12.07-11.45.07:271][  0]LogInit:  - other features:
+[2015.12.07-11.45.07:271][  0]LogInit:      CURL_VERSION_SSL
+[2015.12.07-11.45.07:271][  0]LogInit:      CURL_VERSION_IPV6
+[2015.12.07-11.45.07:271][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.12.07-11.45.07:271][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.12.07-11.45.07:271][  0]LogInit:      CURL_VERSION_IDN
+[2015.12.07-11.45.07:272][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.12.07-11.45.07:272][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.12.07-11.45.07:272][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.12.07-11.45.07:272][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.12.07-11.45.07:272][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.12.07-11.45.07:290][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.12.07-11.45.07:310][  0]LogInit: Object subsystem initialized
+[2015.12.07-11.45.07:321][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.07-11.45.07:321][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.12.07-11.45.07:371][  0]LogInit: Computer: DJ-DESKTOP
+[2015.12.07-11.45.07:371][  0]LogInit: User: DjangoDurango
+[2015.12.07-11.45.07:371][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.12.07-11.45.07:371][  0]LogInit: High frequency timer resolution =2.857441 MHz
+[2015.12.07-11.45.07:371][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx)
+[2015.12.07-11.45.07:372][  0]LogMemory: Platform Memory Stats for Windows
+[2015.12.07-11.45.07:372][  0]LogMemory: Process Physical Memory: 55.27 MB used, 55.27 MB peak
+[2015.12.07-11.45.07:372][  0]LogMemory: Process Virtual Memory: 58.12 MB used, 58.12 MB peak
+[2015.12.07-11.45.07:372][  0]LogMemory: Physical Memory: 2338.71 MB used, 4094.98 MB total
+[2015.12.07-11.45.07:372][  0]LogMemory: Virtual Memory: 350.81 MB used, 8388608.00 MB total
+[2015.12.07-11.45.07:643][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2015.12.07-11.45.09:091][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 650 (Feature Level 11_0)
+[2015.12.07-11.45.09:091][  0]LogD3D11RHI: Adapter has 971MB of dedicated video memory, 0MB of dedicated system memory, and 1791MB of shared system memory, 2 output[s]
+[2015.12.07-11.45.09:091][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.12.07-11.45.09:144][  0]LogD3D11RHI: !Direct3DDevice
+[2015.12.07-11.45.09:145][  0]LogRHI: Texture pool is 680 MB (70% of 971 MB)
+[2015.12.07-11.45.09:164][  0]LogD3D11RHI: Async texture creation enabled
+[2015.12.07-11.45.09:194][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/Intermediate/Shaders/WorkingDirectory/210768/).
+[2015.12.07-11.45.09:195][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/DJANGO~1/AppData/Local/Temp/UnrealShaderWorkingDir/8A4D25554BAB58BFBC0E8F8124D27AB5/'.
+[2015.12.07-11.45.09:195][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.12.07-11.45.21:872][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2015.12.07-11.45.21:887][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.12.07-11.45.21:902][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.12.07-11.45.21:917][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.12.07-11.45.21:931][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.12.07-11.45.21:948][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.12.07-11.45.21:956][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.12.07-11.45.21:974][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.12.07-11.45.21:985][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.12.07-11.45.21:994][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.12.07-11.45.22:004][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.12.07-11.45.22:025][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2015.12.07-11.45.22:025][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.12.07-11.45.22:027][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2015.12.07-11.45.22:092][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.12.07-11.45.22:099][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.12.07-11.45.22:109][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.12.07-11.45.22:134][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.12.07-11.45.22:134][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.12.07-11.45.22:666][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache: Loaded boot cache 0.27s 41MB C:/Users/Django Durango/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Django Durango/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.12.07-11.45.22:941][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.12.07-11.45.23:150][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.12.07-11.45.23:172][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Django Durango/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.12.07-11.45.29:325][  0]LogInit: Selected Device Profile: [Windows]
+[2015.12.07-11.45.29:326][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.12.07-11.45.29:452][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.12.07-11.45.29:452][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.12.07-11.45.30:461][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.12.07-11.45.44:050][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.12.07-11.45.44:505][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.12.07-11.45.45:317][  0]SourceControl: Info Source control is disabled
+[2015.12.07-11.45.45:320][  0]SourceControl: Info Source control is disabled
+[2015.12.07-11.45.45:363][  0]SourceControl: Info Source control is disabled
+[2015.12.07-11.45.45:415][  0]SourceControl: Info Source control is disabled
+[2015.12.07-11.45.46:460][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2015.12.07-11.45.46:460][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2015.12.07-11.45.46:720][  0]LogEngine: Initializing Engine...
+[2015.12.07-11.45.46:737][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.07-11.45.46:994][  0]LogHMD: SteamVR failed to initialize.  Err: 108
+[2015.12.07-11.45.47:359][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.12.07-11.45.47:399][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.12.07-11.45.47:455][  0]LogInit: FAudioDevice initialized.
+[2015.12.07-11.45.47:523][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/Django Durango/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2015.12.07-11.45.47:556][  0]LogInit: Texture streaming: Enabled
+[2015.12.07-11.45.47:597][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.12.07-11.45.47:598][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.0-2758231+++depot+UE4-Releases+4.10
+[2015.12.07-11.45.47:598][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 1775ef084fd9c2543bd0be8890a00cb3|d7dcbdce2a7440c2b1f776cb88e01d44|976adfce-38ae-491a-8e36-02313cc6a396
+[2015.12.07-11.45.47:598][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.12.07-11.45.47:881][  0]LogInit: Transaction tracking system initialized
+[2015.12.07-11.45.48:225][  0]BlueprintLog: New page: Editor Load
+[2015.12.07-11.45.50:096][  0]LocalizationService: Info Localization service is disabled
+[2015.12.07-11.45.50:668][  0]LogLinker:Warning: Can't find file '/Engine/Transient'
+[2015.12.07-11.45.50:668][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Engine/Transient.REINST_ThirdPersonOverview_C_77'
+[2015.12.07-11.45.50:905][  0]LogConsoleResponse:Display: 
+[2015.12.07-11.45.51:391][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.12.07-11.45.52:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/' took 0.02s
+[2015.12.07-11.45.52:813][  0]SourceControl: Info Source control is disabled
+[2015.12.07-11.45.52:814][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/Levels/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.12.07-11.45.52:816][  0]LightingResults: New page: Lighting Build
+[2015.12.07-11.45.52:824][  0]MapCheck: New page: Map Check
+[2015.12.07-11.45.52:824][  0]LightingResults: New page: Lighting Build
+[2015.12.07-11.45.52:906][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000237FA160
+[2015.12.07-11.45.55:711][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2015.12.07-11.45.55:730][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.12.07-11.45.55:731][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.12.07-11.45.56:060][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 328.778ms to complete.
+[2015.12.07-11.45.56:061][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.248
+[2015.12.07-11.45.56:584][  0]LogCollectionManager: Loaded 0 collections in 0.009118 seconds
+[2015.12.07-11.45.56:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/Saved/Collections/' took 0.01s
+[2015.12.07-11.45.56:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/Developers/DjangoDurango/Collections/' took 0.04s
+[2015.12.07-11.45.56:711][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/Collections/' took 0.00s
+[2015.12.07-11.45.56:711][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2015.12.07-11.45.56:736][  0]LogContentBrowser: Native class hierarchy populated in 0.0252 seconds. Added 1893 classes and 338 folders.
+[2015.12.07-11.45.56:829][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2015.12.07-11.45.57:030][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2015.12.07-11.45.57:082][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2015.12.07-11.45.57:190][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.12.07-11.45.57:205][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.12.07-11.45.57:272][  0]LogLoad: Full Startup: 51.97 seconds (BP compile: 0.61 seconds)
+[2015.12.07-11.45.57:306][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2015.12.07-11.45.57:551][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.12.07-11.45.58:117][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2015.12.07-11.46.01:999][  7]LogAssetRegistry: Asset discovery search completed in 17.5094 seconds
+[2015.12.07-11.46.01:999][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2015.12.07-11.46.01:999][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2015.12.07-11.48.21:078][486]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.12.07-11.48.23:292][486]LogSavePackage: Save=2107.663818ms
+[2015.12.07-11.48.23:292][486]LogSavePackage: Moving '../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/Saved/ThirdPersonExampleMap170B0B19460F4B05914700B5A7F14FC5.tmp' to '../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/Levels/ThirdPersonExampleMap.umap'
+[2015.12.07-11.48.23:297][486]LogSavePackage: Total save time: 2128.422249ms
+[2015.12.07-11.48.23:297][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Django Durango/My Projects/Unreal Projects/TheTake/Content/Levels/ThirdPersonExampleMap.umap
+[2015.12.07-11.48.49:921][482]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.48.55:014][731]LogSourceControl: Unable to detect system-level svn binary.
+[2015.12.07-11.48.55:014][731]LogSourceControl: Using path C:/Program Files/Epic Games/4.10/Engine/Binaries/ThirdParty/svn/Win64/svn.exe for svn operations
+[2015.12.07-11.49.04:314][185]SourceControl:Error: Error svn: E155007: 'C:\Users\Django Durango\My Projects\Unreal Projects\TheTake' is not a working copy
+[2015.12.07-11.49.04:335][185]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-11.49.45:297][504]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.49.46:167][538]SourceControl:Error: Error svn: E155007: 'C:\Users\Django Durango\My Projects\Unreal Projects\TheTake' is not a working copy
+[2015.12.07-11.49.46:167][538]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-11.52.11:060][364]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.52.15:674][573]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.52.20:412][804]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-11.52.20:412][804]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-11.52.20:412][804]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-11.53.19:588][456]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.53.19:931][470]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.53.24:866][700]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-11.53.24:866][700]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-11.53.24:866][700]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-11.58.29:041][984]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.58.29:645][  7]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-11.58.35:015][248]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-11.58.35:015][248]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-11.58.35:015][248]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.00.06:919][485]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.00.07:334][502]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.00.11:265][669]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.00.11:265][669]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.00.11:265][669]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.01.01:469][922]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.01.01:762][932]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.01.05:695][ 99]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.01.05:696][ 99]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.01.05:696][ 99]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.04.26:554][212]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.04.27:070][238]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.04.30:188][328]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.04.30:188][328]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.04.30:188][328]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.04.46:971][135]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.04.47:139][141]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.04.51:195][324]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.04.51:195][324]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.04.51:195][324]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.07.47:689][ 88]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.07.48:245][115]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.07.51:047][225]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.07.51:047][225]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.07.51:047][225]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.08.03:692][416]LogSourceControl: Attempting "svn info "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --xml --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.08.04:012][431]LogSourceControl: Attempting "svn status --show-updates --verbose --xml "C:/Users/Django Durango/My Projects/Unreal Projects/TheTake/" --non-interactive --trust-server-cert --username Django --password ********"
+[2015.12.07-12.08.07:236][589]SourceControl:Error: Error svn: E230001: Unable to connect to a repository at URL 'https://dj-desktop:8443/svn/TheTake'
+[2015.12.07-12.08.07:236][589]SourceControl:Error: Error svn: E230001: Server SSL certificate untrusted
+[2015.12.07-12.08.07:236][589]SourceControl:Error: Error Failed to connect to source control. Check your settings and connection then try again.
+[2015.12.07-12.08.43:812][219]SourceControl: Info Source control is disabled
+[2015.12.07-12.08.45:725][278]Cmd: QUIT_EDITOR
+[2015.12.07-12.08.46:301][278]LogExit: Preparing to exit.
+[2015.12.07-12.08.46:912][278]LogExit: Editor shut down
+[2015.12.07-12.08.46:913][278]LogExit: Transaction tracking system shut down
+[2015.12.07-12.08.46:918][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000115E3060
+[2015.12.07-12.08.46:920][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002DE24860
+[2015.12.07-12.08.46:920][278]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000117A56C0
+[2015.12.07-12.08.47:404][278]LogExit: Object subsystem successfully closed.
+[2015.12.07-12.08.47:436][278]LogD3D11RHI: Shutdown
+[2015.12.07-12.08.47:436][278]LogD3D11RHI: CleanupD3DDevice
+[2015.12.07-12.08.47:558][278]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2015.12.07-12.08.47:593][278]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2015.12.07-12.08.47:596][278]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2015.12.07-12.08.47:596][278]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2015.12.07-12.08.47:597][278]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2015.12.07-12.08.47:598][278]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2015.12.07-12.08.47:598][278]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2015.12.07-12.08.47:598][278]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2015.12.07-12.08.47:598][278]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2015.12.07-12.08.47:598][278]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2015.12.07-12.08.47:599][278]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2015.12.07-12.08.47:779][278]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2015.12.07-12.08.47:780][278]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2015.12.07-12.08.47:781][278]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2015.12.07-12.08.47:782][278]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2015.12.07-12.08.47:878][278]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2015.12.07-12.08.47:966][278]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2015.12.07-12.08.47:967][278]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2015.12.07-12.08.47:969][278]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.12.07-12.08.47:971][278]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2015.12.07-12.08.48:084][278]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2015.12.07-12.08.48:086][278]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2015.12.07-12.08.48:086][278]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2015.12.07-12.08.48:201][278]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2015.12.07-12.08.48:201][278]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2015.12.07-12.08.48:201][278]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2015.12.07-12.08.48:210][278]LogModuleManager: Shutting down and abandoning module Media (82)
+[2015.12.07-12.08.48:210][278]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2015.12.07-12.08.48:211][278]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2015.12.07-12.08.48:212][278]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2015.12.07-12.08.48:213][278]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2015.12.07-12.08.48:213][278]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2015.12.07-12.08.48:213][278]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2015.12.07-12.08.48:213][278]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2015.12.07-12.08.48:213][278]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module Core (60)
+[2015.12.07-12.08.48:220][278]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2015.12.07-12.08.48:221][278]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2015.12.07-12.08.48:221][278]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2015.12.07-12.08.48:221][278]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2015.12.07-12.08.48:255][278]LogDerivedDataCache: Shutdown
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2015.12.07-12.08.48:255][278]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2015.12.07-12.08.48:256][278]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2015.12.07-12.08.50:450][278]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.12.07-12.08.50:455][278]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.12.07-12.08.50:534][278]LogExit: Exiting.
+[2015.12.07-12.08.50:536][278]Log file closed, 12/07/15 06:08:50
